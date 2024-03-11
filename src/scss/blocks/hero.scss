@@ -1,8 +1,14 @@
 .hero {
   padding-top: 55px;
   background-color: $c-cream;
-  min-height: calc(100vh - $header-height);
+  min-height: 600px;
+  height: calc(100vh - $header-height);
   max-height: 800px;
+
+  @include onTablet {
+    min-height: 1250px;
+    max-height: 1500px;
+  }
 
   &__content {
     display: flex;
@@ -11,7 +17,6 @@
 
     @include onTablet {
       display: block;
-      max-height: 1000px;
     }
   }
 

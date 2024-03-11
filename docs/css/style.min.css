@@ -308,8 +308,15 @@ table {
 .hero {
   padding-top: 55px;
   background-color: #FAF8F6;
-  min-height: calc(100vh - 60px);
+  min-height: 600px;
+  height: calc(100vh - 60px);
   max-height: 800px;
+}
+@media (max-width: 1024px) {
+  .hero {
+    min-height: 1250px;
+    max-height: 1500px;
+  }
 }
 .hero__content {
   display: flex;
@@ -319,7 +326,6 @@ table {
 @media (max-width: 1024px) {
   .hero__content {
     display: block;
-    max-height: 1000px;
   }
 }
 @media (max-width: 1024px) {
