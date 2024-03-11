@@ -1,0 +1,40 @@
+.introduction-card {
+  padding: 40px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -2%;
+
+  @include onTablet {
+    margin-inline: auto;
+    max-width: 400px;
+  }
+
+  &__icon {
+    margin-bottom: 32px;
+    @include square(72px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &--coaching {
+      background-image: url("../../img/icons/coaching.svg");
+    }
+
+    &--consultation {
+      background-image: url("../../img/icons/consultation.svg");
+    }
+
+    &--group {
+      background-image: url("../../img/icons/group.svg");
+    }
+  }
+
+  &__title {
+    margin-bottom: 16px;
+    @extend %h3;
+
+    &--thin {
+      font-weight: 400;
+    }
+  }
+}

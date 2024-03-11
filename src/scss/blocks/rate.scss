@@ -1,0 +1,25 @@
+.rate {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  background-color: $c-white;
+  padding: 24px;
+  font-size: 12px;
+  letter-spacing: -1%;
+
+  &__icon {
+    display: block;
+    @include square(56px);
+    background-image: url("../../img/icons/target.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  &__percent {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -3%;
+  }
+}

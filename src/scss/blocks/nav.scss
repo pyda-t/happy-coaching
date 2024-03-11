@@ -1,0 +1,33 @@
+.nav {
+  &__list {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 30px;
+
+    @include onTablet {
+      grid-auto-flow: row;
+      gap: 25px;
+    }
+  }
+
+  &__item {
+    transition-duration: $amin-time;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &__link {
+    @extend %link-text;
+    color: $c-dark-blue;
+
+    @include onTablet {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: -3%;
+    }
+  }
+}

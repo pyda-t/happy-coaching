@@ -1,0 +1,6 @@
+.secondary-container {
+  margin-inline: auto;
+  max-width: 1250px;
+  padding-right: 20px;
+  @include adaptive-value('padding-left', 30, 20);
+}

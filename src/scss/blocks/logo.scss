@@ -1,0 +1,16 @@
+.logo {
+  position: relative;
+  z-index: 3;
+  display: block;
+  width: 149px;
+  height: 28px;
+  background-image: url("../../img/icons/Logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transition-duration: $amin-time;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+}

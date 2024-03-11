@@ -1,0 +1,10 @@
+.anim-card {
+  opacity: 0;
+  transform: translateY(50%);
+  transition-duration: $amin-time;
+
+  &--active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

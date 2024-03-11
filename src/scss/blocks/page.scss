@@ -1,0 +1,5 @@
+.page {
+  background-color: $c-white;
+  @extend %main-text;
+  color: $c-dark-blue;
+}

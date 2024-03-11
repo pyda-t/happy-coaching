@@ -1,0 +1,17 @@
+<svg width="72.000000" height="72.000000" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip508_5803">
+			<rect id="Frame" width="72.000000" height="72.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Frame" width="72.000000" height="72.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip508_5803)">
+		<path id="Vector" d="M21 21C17.6863 21 15 18.3137 15 15C15 11.6863 17.6863 9 21 9C24.3137 9 27 11.6863 27 15C27 18.3137 24.3137 21 21 21Z" stroke="#20AD96" stroke-opacity="1.000000" stroke-width="2.750000" stroke-linejoin="round"/>
+		<path id="Vector" d="M15 66L15 51L12 48L12 36C12 35.2043 12.316 34.4413 12.8787 33.8787C13.4413 33.316 14.2043 33 15 33L27 33C27.7957 33 28.5587 33.316 29.1213 33.8787C29.684 34.4413 30 35.2043 30 36L30 48L27 51L27 66" stroke="#20AD96" stroke-opacity="1.000000" stroke-width="2.750000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M51 21C47.6863 21 45 18.3137 45 15C45 11.6863 47.6863 9 51 9C54.3137 9 57 11.6863 57 15C57 18.3137 54.3137 21 51 21Z" stroke="#3F3A64" stroke-opacity="1.000000" stroke-width="2.750000" stroke-linejoin="round"/>
+		<path id="Vector" d="M45 66L45 54L39 54L45 36C45 35.2043 45.316 34.4413 45.8787 33.8787C46.4413 33.316 47.2043 33 48 33L54 33C54.7957 33 55.5587 33.316 56.1213 33.8787C56.684 34.4413 57 35.2043 57 36L63 54L57 54L57 66" stroke="#3F3A64" stroke-opacity="1.000000" stroke-width="2.750000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+</svg>

@@ -1,0 +1,10 @@
+.anim-image {
+  transform: scale(0);
+  opacity: 0;
+  transition-duration: $amin-time;
+
+  &--active {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

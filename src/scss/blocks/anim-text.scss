@@ -1,0 +1,30 @@
+.anim-text {
+  position: relative;
+  display: block;
+  overflow: hidden;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $c-white;
+    transform: translateY(0);
+    transition-duration: $amin-time;
+    animation-timing-function: ease-in-out;
+  }
+
+  &--cream {
+    &::after {
+      background-color: $c-cream;
+    }
+  }
+
+  &--active {
+    &::after {
+      transform: translateY(100%);
+    }
+  }
+}

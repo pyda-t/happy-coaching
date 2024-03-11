@@ -1,0 +1,48 @@
+.introduction {
+  padding-top: 110px;
+  padding-bottom: 61px;
+
+  &__info {
+    display: flex;
+    column-gap: 74px;
+    margin-bottom: 16px;
+
+    @include onTablet {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  &__zigzag {
+    margin-bottom: 32px;
+
+    @include onTablet {
+      margin-inline: auto;
+    }
+  }
+
+  &__title {
+    @extend %h2;
+  }
+
+  &__text {
+    display: grid;
+    row-gap: 20px;
+    padding-top: 33px;
+    max-width: 468px;
+    font-size: 17px;
+    line-height: 25px;
+
+    @include onTablet {
+      max-width: 100%;
+    }
+  }
+
+  &__list {
+    display: flex;
+
+    @include onTablet {
+      display: block;
+    }
+  }
+}

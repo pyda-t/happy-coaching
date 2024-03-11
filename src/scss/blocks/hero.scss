@@ -1,0 +1,100 @@
+.hero {
+  padding-top: 55px;
+  background-color: $c-cream;
+  min-height: calc(100vh - $header-height);
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+
+    @include onTablet {
+      display: block;
+    }
+  }
+
+  &__info {
+    @include onTablet {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__zigzag {
+    @include adaptive-value('margin-bottom', 68, 32);
+    transform: translateX(-50%);
+
+    @include onTablet {
+      margin-inline: auto;
+      transform: translateX(0);
+    }
+  }
+
+  &__secondary-text {
+    margin-bottom: 6px;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.4;
+
+    @include onTablet {
+      text-align: center;
+    }
+  }
+
+  &__title {
+    margin-bottom: 18px;
+    max-width: 520px;
+    @extend %h1;
+
+    @include onTablet {
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+
+  &__text {
+    margin-bottom: 18px;
+    max-width: 545px;
+
+    @include onTablet {
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+
+  &__button {
+    @include onTablet {
+      display: block;
+      margin-inline: auto;
+    }
+  }
+
+  &__right {
+    position: relative;
+    padding-top: 20px;
+  }
+
+  &__rate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: translateX(-50%);
+
+    @include onTablet {
+      left: 50%;
+    }
+  }
+
+  &__image {
+    display: block;
+    max-width: 462px;
+    aspect-ratio: 462 / 603;
+    object-fit: cover;
+    object-position: center;
+    transform: translateY(20px);
+
+    @include onTablet {
+      margin-inline: auto;
+    }
+  }
+}

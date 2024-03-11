@@ -1,0 +1,12 @@
+.zigzag {
+  width: 101px;
+  height: 17px;
+  background-image: url("../../img/icons/zigzag.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &--dark {
+    background-image: url("../../img/icons/zigzag-dark.svg");
+  }
+}

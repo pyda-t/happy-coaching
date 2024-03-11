@@ -1,0 +1,19 @@
+.button {
+  border: 1px solid $c-green;
+  border-radius: 4px;
+  padding: 10px 15px;
+  background-color: $c-green;
+  @extend %button-text;
+  color: $c-white;
+  transition-duration: $amin-time;
+
+  &:hover {
+    background-color: $c-white;
+    color: $c-green;
+  }
+
+  &--sections {
+    border-radius: 10px;
+    font-weight: 400;
+  }
+}
