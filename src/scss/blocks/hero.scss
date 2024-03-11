@@ -2,6 +2,7 @@
   padding-top: 55px;
   background-color: $c-cream;
   min-height: calc(100vh - $header-height);
+  max-height: 800px;
 
   &__content {
     display: flex;
@@ -10,6 +11,7 @@
 
     @include onTablet {
       display: block;
+      max-height: 1000px;
     }
   }
 
@@ -87,6 +89,7 @@
 
   &__image {
     display: block;
+    width: 100%;
     max-width: 462px;
     aspect-ratio: 462 / 603;
     object-fit: cover;

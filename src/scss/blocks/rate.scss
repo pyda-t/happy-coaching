@@ -3,7 +3,7 @@
   align-items: center;
   column-gap: 16px;
   background-color: $c-white;
-  padding: 24px;
+  @include adaptive-value('padding', 24, 12);
   font-size: 12px;
   letter-spacing: -1%;
 

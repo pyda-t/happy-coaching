@@ -170,7 +170,8 @@ table {
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
-    min-height: 100vh;
+    min-height: 400px;
+    height: 100vh;
     padding-inline: 20px;
     padding-top: 80px;
     padding-bottom: 20px;
@@ -308,6 +309,7 @@ table {
   padding-top: 55px;
   background-color: #FAF8F6;
   min-height: calc(100vh - 60px);
+  max-height: 800px;
 }
 .hero__content {
   display: flex;
@@ -317,6 +319,7 @@ table {
 @media (max-width: 1024px) {
   .hero__content {
     display: block;
+    max-height: 1000px;
   }
 }
 @media (max-width: 1024px) {
@@ -394,6 +397,7 @@ table {
 }
 .hero__image {
   display: block;
+  width: 100%;
   max-width: 462px;
   aspect-ratio: 462/603;
   object-fit: cover;
@@ -426,6 +430,11 @@ table {
   padding: 24px;
   font-size: 12px;
   letter-spacing: -1%;
+}
+@media (max-width: 1060px) {
+  .rate {
+    padding: calc(12px + 12 * (100vw - 320px) / 740);
+  }
 }
 .rate__icon {
   display: block;
